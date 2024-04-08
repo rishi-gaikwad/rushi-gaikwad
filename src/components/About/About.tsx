@@ -7,7 +7,7 @@ import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import Tailwind from "../../assets/tailwind-css.svg";
 import Redux from "../../assets/redux.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -53,7 +53,7 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+              <img src={Tailwind} alt="Tailwind" />
             </ScrollAnimation>
           </div>
           <div className="hability">

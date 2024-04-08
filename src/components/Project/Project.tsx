@@ -57,7 +57,13 @@ export function Project() {
       The WhatsApp Clone - Simple Design project provided valuable experience in frontend development and user interface design. It showcased my ability to create functional and visually appealing web applications using modern frontend technologies.
               </p>
             </div>
-            
+            <footer>
+              <ul className="tech-list">
+                <li>Next js</li>
+                <li>Html</li>
+                <li>Tailwind Css</li>
+              </ul>
+            </footer>
           </div>
         </ScrollAnimation>
 

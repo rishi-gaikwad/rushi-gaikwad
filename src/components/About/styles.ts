@@ -50,6 +50,8 @@ export const Container = styled.section`
    img{
      margin-top: 2rem;
      width: 75%;
+        border-radius: 10%;
+
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -86,6 +88,7 @@ export const Container = styled.section`
       img{
         margin-top: 2rem;
         width: 100%;
+        
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{

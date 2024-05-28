@@ -67,6 +67,32 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+<ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://tic-tac-toe-game-sage-nine.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Tic Tac Toe</h3>
+              <p>
+              This is a modern and visually appealing Tic Tac Toe game built with React.js and styled using Tailwind CSS. The game supports two players who take turns placing 'X' and 'O' on a 3x3 grid. The game detects the winner and displays a winning message, along with a reset button to start a new game.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React</li>
+                <li>Html</li>
+                <li>Tailwind css</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
          <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -92,6 +118,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
+        
       </div>
     </Container>
   );
